@@ -50,5 +50,5 @@ You are free to use, modify, and distribute this extension with proper credit.
 
 ## 🙌 Credits
 
-Created by **DINESHKARTIK N** – 2025  
+Created by **DINESHKARTHIK N** – 2025  
 Feel free to contribute or fork the project!
