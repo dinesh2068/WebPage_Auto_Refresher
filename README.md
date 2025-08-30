@@ -1,4 +1,4 @@
-# 🔁 Webpage Auto-Refresher – Chrome Extension
+# Webpage Auto-Refresher – Chrome Extension
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -6,17 +6,17 @@
 
 ---
 
-## ⚙️ Features
+## Features
 
-- 🔍 Detects server errors (e.g., 500, 502, 503, 504)
-- 🔄 Automatically refreshes the page at intervals
-- 🧠 Stops refreshing once the page loads successfully
-- ⚡ Lightweight and efficient
-- 🧩 Easy to install and use
+- Detects server errors (e.g., 500, 502, 503, 504)
+- Automatically refreshes the page at intervals
+- Stops refreshing once the page loads successfully
+- Lightweight and efficient
+- Easy to install and use
 
 ---
 
-## 🚀 Installation Guide
+## Installation Guide
 
 1. **Download or clone this repository:**
    
@@ -33,7 +33,7 @@
 3. Click Load unpacked and select the **Autorefresher** folder.
 
 
-## 💡 How It Works
+## How It Works
 
 1. The extension monitors the network response or page content.
 
@@ -42,13 +42,13 @@
 3. It keeps checking until the error is resolved.
 
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this extension with proper credit.
 
 
-## 🙌 Credits
+## Credits
 
 Created by **DINESHKARTHIK N** – 2025  
 Feel free to contribute or fork the project!
