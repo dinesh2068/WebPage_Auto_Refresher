@@ -1,9 +1,13 @@
-const toggle = document.getElementById("toggleRefresh");
+const api = typeof browser !== "undefined" ? browser : chrome;
 
-chrome.storage.sync.get("enabled", data => {
-  toggle.checked = data.enabled !== false; // default is true
-});
+document.addEventListener("DOMContentLoaded", async () => {
+    const toggle = document.getElementById("toggleRefresh");
 
-toggle.addEventListener("change", () => {
-  chrome.storage.sync.set({ enabled: toggle.checked });
+    const data = await api.storage.sync.get("enabled");
+    toggle.checked = data.enabled ?? true;
+
+    toggle.addEventListener("change", async () => {
+        console.log("[AutoRefresher] Toggle set to:", toggle.checked);
+        await api.storage.sync.set({ enabled: toggle.checked });
+    });
 });
